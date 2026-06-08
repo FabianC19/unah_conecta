@@ -75,11 +75,23 @@ function App() {
                       <span className="text-slate-200">Auditoría</span>
                       <span className="rounded-full bg-slate-700 px-3 py-1 text-xs font-semibold uppercase text-slate-300">En desarrollo</span>
                     </div>
+                    <div className="flex items-center justify-between rounded-2xl bg-slate-950/80 px-4 py-3">
+                      <span className="text-slate-200">Bitácora</span>
+                      <span className="rounded-full bg-slate-700 px-3 py-1 text-xs font-semibold uppercase text-slate-300">En desarrollo</span>
+                    </div>
+                    <div className="flex items-center justify-between rounded-2xl bg-slate-950/80 px-4 py-3">
+                      <span className="text-slate-200">Respaldos</span>
+                      <span className="rounded-full bg-slate-700 px-3 py-1 text-xs font-semibold uppercase text-slate-300">En desarrollo</span>
+                    </div>
+                    <div className="flex items-center justify-between rounded-2xl bg-slate-950/80 px-4 py-3">
+                      <span className="text-slate-200">ACL/RBAC</span>
+                      <span className="rounded-full bg-slate-700 px-3 py-1 text-xs font-semibold uppercase text-slate-300">En desarrollo</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div className="mt-12 grid gap-6 lg:grid-cols-2">
+              <div className="mt-12 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
                 <article className="rounded-[1.75rem] border border-slate-900 bg-slate-900/80 p-8 shadow-xl shadow-slate-950/20 transition hover:-translate-y-1">
                   <div className="flex items-center justify-between mb-4">
                     <h2 className="text-xl font-bold text-white">👥 Roles</h2>
@@ -126,6 +138,33 @@ function App() {
                   </div>
                   <p className="text-slate-400">
                     En desarrollo: registro de eventos y análisis de seguridad para revisar cambios en roles y permisos.
+                  </p>
+                </article>
+                <article className="rounded-[1.75rem] border border-slate-900 bg-slate-900/80 p-8 shadow-xl shadow-slate-950/20 opacity-90">
+                  <div className="flex items-center justify-between mb-4">
+                    <h2 className="text-xl font-bold text-white">📝 Bitácora</h2>
+                    <span className="rounded-full bg-slate-700 px-3 py-1 text-xs font-semibold uppercase text-slate-300">Próximamente</span>
+                  </div>
+                  <p className="text-slate-400">
+                    Módulo planeado para mantener un historial de cambios, accesos y eventos clave del sistema.
+                  </p>
+                </article>
+                <article className="rounded-[1.75rem] border border-slate-900 bg-slate-900/80 p-8 shadow-xl shadow-slate-950/20 opacity-90">
+                  <div className="flex items-center justify-between mb-4">
+                    <h2 className="text-xl font-bold text-white">💾 Respaldos</h2>
+                    <span className="rounded-full bg-slate-700 px-3 py-1 text-xs font-semibold uppercase text-slate-300">Próximamente</span>
+                  </div>
+                  <p className="text-slate-400">
+                    En desarrollo: gestión de copias de seguridad para proteger la información crítica de la plataforma.
+                  </p>
+                </article>
+                <article className="rounded-[1.75rem] border border-slate-900 bg-slate-900/80 p-8 shadow-xl shadow-slate-950/20 opacity-90">
+                  <div className="flex items-center justify-between mb-4">
+                    <h2 className="text-xl font-bold text-white">🔐 ACL / RBAC</h2>
+                    <span className="rounded-full bg-slate-700 px-3 py-1 text-xs font-semibold uppercase text-slate-300">Próximamente</span>
+                  </div>
+                  <p className="text-slate-400">
+                    En desarrollo: control de acceso avanzado basado en roles y listas de control para reforzar la seguridad.
                   </p>
                 </article>
               </div>
